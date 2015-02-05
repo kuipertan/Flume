@@ -1,0 +1,6 @@
+
+This sink can used for statistic work,
+it count bytes and events.
+
+Use it as option sink
+

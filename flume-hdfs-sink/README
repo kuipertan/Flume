@@ -1,0 +1,9 @@
+
+This hdfs sink support:
+ lzo compression and create index file
+ roll file on  fixed time: 00:10, 01:10, 02:10....
+
+
+modified files:  
+pom.xml: add dependency com.hadoop.gplcompression
+BucketWriter.java: rename function,  doOpen and doClose functions  
