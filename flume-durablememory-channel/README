@@ -1,0 +1,10 @@
+
+This sink was modified by tanzhenghai based on flume-spillable-memory-channel
+which can backup events in memroy when flume stops, and recover at next startup
+
+
+As you know, events in flume memroy channel will be discarded when flume stoped or reload configuration file.
+Though spillable-memory channel was supplied in flume-1.5, but only events in the file channel were can recovered. spillable-memory channel was a memory channel extends on file channel.
+
+
+if flume crashed, only events can be recovered.
